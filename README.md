@@ -17,41 +17,37 @@ Link : https://www.linkedin.com/in/anil-l-b023631b6/
 
 ## Video Demo
 
-https://user-images.githubusercontent.com/71332138/136520856-67c28702-1462-4e5a-96fa-57f149c5a2dd.mov
+
+https://user-images.githubusercontent.com/71332138/136665059-bbd3d181-1423-4da5-99bb-77882811767d.mov
+
+
 
 
 
 ## Overview
-I developed “🌿Cotton Plant Disease Prediction & Get Cure App” using Artificial Intelligence especially Deep learning.I know Farmer can’t solve Farm’s complex and even small problems due to lack of perfect education. So as AI enthusiastic I decided to solve this problem using the latest technology like AI.
+Air pollution forecasting is the application of science and technology to predict the composition of the air pollution in the atmosphere for a given location and time. Mainstream pollution prediction algorithms tend to utilize air quality index or PM2. 5 concentration to indicate pollution level.
 
-Then I decide which algorithm is best to solve this problem and I select Transform Learning “Resnet” . I create my own Resnet architecture and it works well on the training and as well as testing dataset.
+The forecast may give the pollutant's concentration or the air quality index.
+
+Countries and cities are given forecasts by state and local government organizations, as well as private companies like Airly, AirVisual, Aerostate, BreezoMeter, PlumeLabs, and DRAXIS that provide air pollution forecasts.
+Air pollution forecasting can be done by coupling weather forecasting systems with chemical transport model and atmospheric dispersion modeling.
 
 ## Motivation
 What to do when you are at home due to this pandemic situation? I started to learn Machine Learning and Deep Learning model to get most out of it. I came to know mathematics behind all supervised models,unspurervised models,CNN,ANN and RNN. Finally it is important to work on application (real world application) to actually make a difference. To get a experience you have to work thats the reason to perform my favourable work done.
 
 
+
+
 ## Data Collection 
-Indian AI Prodcution just start to collect lots of images of cotton crop plants from farmer with there help it easy to collect accurate data we need expertise in that domain and for farmers it's helps a lot. Thank You Indian AI Prodcution(Credits)
 
-Database Link : [https://drive.google.com/drive/folders/1vdr9CC9ChYVW2iXp6PlfyMOGD-4Um1ue]
-## Resnet(94% Accuracy)
-
-In 2012 at the LSVRC2012 classification contest AlexNet won the the first price, After that ResNet was the most interesting thing that happened to the computer vision and the deep learning world.
-
-Because of the framework that ResNets presented it was made possible to train ultra deep neural networks and by that i mean that i network can contain hundreds or thousands of layers and still achieve great performance.
-
-The ResNets were initially applied to the image recognition task but as it is mentioned in the paper that the framework can also be used for non computer vision tasks also to achieve better accuracy.
-
-Many of you may argue that simply stacking more layers also gives us better accuracy why was there a need of Residual learning for training ultra deep neural networks.
-
-It gives me more than 94% accuracy on training and validation data set in just 20 epochs. I am trying to increase accuracy with more data and epochs.
+I just took the Bangalore city Air Quality data with help of web scraping and you can find through online which City data you want
 
 
+## Random Forest
 
-![Unknown-4](https://user-images.githubusercontent.com/71332138/136523794-51dfd092-21f5-42da-8610-5b36df22d2bc.png)
-![Unknown-5](https://user-images.githubusercontent.com/71332138/136523798-e5ef8b84-d36b-4340-bdbb-f95d342efdc3.png)
+Recent studies have incorporated machine learning techniques such as neural networks, regressions, and random forests to achieve high accuracy but I tried the random forest and it gives the good result 
 
-For More Information About Resnet Check this Blog : [https://iq.opengenus.org/resnet50-architecture/]
+![Screenshot 2021-10-09 at 9 24 43 PM](https://user-images.githubusercontent.com/71332138/136665616-217d2265-53c7-4ad3-891b-cf0627a8c96c.png)
 
 
 ## Flask Framework
@@ -65,7 +61,6 @@ Flask Tutorial : [https://www.tutorialspoint.com/flask/index.htm]
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 ![Screenshot 2021-10-09 at 8 28 03 PM](https://user-images.githubusercontent.com/71332138/136664728-a7611f2a-e388-437a-acd6-0f0c8340fb99.png)
 
-![Screenshot 2021-10-09 at 8 28 33 PM](https://user-images.githubusercontent.com/71332138/136664734-96421644-e979-41bf-a6bc-6fd89659836a.png)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 ![Screenshot 2021-10-09 at 8 28 24 PM](https://user-images.githubusercontent.com/71332138/136664729-5d5c2ca8-3cf6-4bc4-8139-ff34dd48b7f5.png)
@@ -73,14 +68,8 @@ Flask Tutorial : [https://www.tutorialspoint.com/flask/index.htm]
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+![Screenshot 2021-10-09 at 8 28 33 PM](https://user-images.githubusercontent.com/71332138/136664734-96421644-e979-41bf-a6bc-6fd89659836a.png) 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 
 ## Installation and Run
 The Code is written in Python 3.9 If you don't have Python installed you can find it [here](https://www.python.org/downloads/). If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. To install the required packages and libraries, run this command in the project directory after [cloning](https://www.howtogeek.com/451360/how-to-clone-a-github-repository/) the repository:
